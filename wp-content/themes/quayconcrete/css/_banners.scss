@@ -1,0 +1,110 @@
+
+.homepage-banner{
+	
+	position: relative;
+
+	@media (max-width: 767px){ 
+		display: none;
+	}
+
+	.container {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	}
+
+	.into-msg {
+	    position: absolute;
+	    left: 0;
+	    top: 14%;
+		width: 36%;
+    	height: auto;
+    	@media (max-width: 1100px){
+    		top: 10%;
+			width: 30%;
+			left: 20px;
+    	}
+	}
+
+	img{
+		width: 100%;
+		height: auto;
+		margin-top: -20px;
+	}
+
+}
+
+.homepage-banner-contact{
+
+	@include two-cols;
+
+	padding: 20px 0px;
+	background-color: $pink; 
+	color: #fff;
+	border-bottom: 4px solid $yellow;
+	font-size: 22px;
+
+	i{
+		color: $yellow;
+		vertical-align: sub;
+    	font-size: 26px;
+	}
+
+	span{
+		font-weight: 600;
+	}
+
+	.last.col{
+		text-align: right;
+		font-weight: 600;
+		vertical-align: sub;
+	}
+
+}
+
+.landing-banner{
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+.conrete-call-to{
+
+	@include two-cols;
+	
+	padding: 40px 0; 
+	background-image: url('/wp-content/themes/quayconcrete/img/concrete.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+
+	.transparent-background{
+		padding: 30px 0px;
+		background-image: url('/wp-content/themes/quayconcrete/img/transparent.png');
+	}
+
+	p{
+		margin: 0;
+	}
+
+	h5{
+		color: $pink;
+		font-weight: 900;
+		font-size: 22px; 
+		margin: 0 0 10px; 
+		text-transform: uppercase;
+	}
+	h5:after{
+		display: block;
+    	content: ' ';
+    	background-color: #f4c100;
+   		width: 70px;
+   		height: 4px;
+    	margin-right: auto;
+    	margin-top: 10px;
+	}
+
+}
+		
