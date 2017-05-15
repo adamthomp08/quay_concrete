@@ -8,6 +8,43 @@
 	}
 }
 
+.white-text-area-2{
+
+	@include two-cols;
+
+	padding: 40px 0px; 
+
+	@media(max-width: 767px){
+		padding: 20px 0px 0px;
+	}
+
+	h3{
+		position: relative;
+	    color: $pink;
+	    text-transform: uppercase;
+	    font-weight: 900;
+	    font-size: 24px;
+	    margin-bottom: 30px; 
+	}
+
+	h3:after{
+		position: absolute;
+	    content: ' ';
+	    display: block;
+	    width: 70px;
+	    height: 4px;
+	    background-color: $yellow;
+	    bottom: -16px;
+	    left: 0px;
+	}
+
+	ul{
+		margin: 0 0 20px;
+		padding: 0px;
+		margin-left: 15px;
+	}
+}
+
 .white-text-area{
 	@include one-cols;
 
@@ -19,7 +56,7 @@
 
 	h1{
 		position: relative;
-	    color: #e62382;
+	    color: $pink;
 	    text-transform: uppercase;
 	    font-weight: 900;
 	    font-size: 28px;
@@ -201,8 +238,64 @@
 		padding: 20px 0px;
 	}
 
+	h2{
+		position: relative;
+	    color: #fff;
+	    text-transform: uppercase;
+	    font-weight: 900;
+	    font-size: 24px;
+	    margin-bottom: 30px; 
+	}
+
+	h2:after{
+		position: absolute;
+	    content: ' ';
+	    display: block;
+	    width: 70px;
+	    height: 4px;
+	    background-color: $yellow;
+	    bottom: -16px;
+	    left: 0px;
+	}
+
+
 	ul li{
 		margin: 0 0 20px; 
+	}
+
+}
+
+.pink-text-area-1{
+
+	@include one-cols;
+
+	padding: 40px 0px;
+	margin: 0 0 20px;
+	background-color: $pink; 
+	color: #fff; 
+
+	@media (max-width: 767px){
+		padding: 20px 0px;
+	}
+
+	h4{
+		position: relative;
+	    color: #fff;
+	    text-transform: uppercase;
+	    font-weight: 900;
+	    font-size: 24px;
+	    margin-bottom: 30px; 
+	}
+
+	h4:after{
+		position: absolute;
+	    content: ' ';
+	    display: block;
+	    width: 70px;
+	    height: 4px;
+	    background-color: $yellow;
+	    bottom: -16px;
+	    left: 0px;
 	}
 
 }

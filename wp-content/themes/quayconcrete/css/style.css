@@ -162,26 +162,45 @@ a:hover {
     bottom: 0; }
   .homepage-banner .into-msg {
     position: absolute;
-    left: 0;
-    top: 14%;
+    left: 20px;
+    top: 10%;
     width: 36%;
-    height: auto; }
+    height: auto;
+    padding: 16px 0px; }
     @media (max-width: 1100px) {
       .homepage-banner .into-msg {
         top: 10%;
         width: 30%;
         left: 20px; } }
-  .homepage-banner img {
-    width: 100%;
+  .homepage-banner h1 {
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #392986; }
+  .homepage-banner h1 span {
+    font-weight: 900; }
+  .homepage-banner ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .homepage-banner li {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #392986; }
+  .homepage-banner .into-msg img {
+    width: 25px;
     height: auto;
-    margin-top: -20px; }
+    margin-top: -20px;
+    margin-right: 5px;
+    vertical-align: text-bottom; }
 
 .homepage-banner-contact {
-  padding: 20px 0px;
+  padding: 24px 0px 20px;
   background-color: #392986;
   color: #fff;
-  border-bottom: 4px solid #f4c100;
-  font-size: 22px; }
+  border-bottom: 5px solid #f4c100;
+  font-size: 26px;
+  line-height: 1; }
   .homepage-banner-contact .col {
     float: left;
     width: 100%;
@@ -217,43 +236,61 @@ a:hover {
   width: 100%;
   height: auto; }
 
-.conrete-call-to {
+.concrete-call-to {
   padding: 40px 0;
+  margin: 0 0 20px;
   background-image: url("/wp-content/themes/quayconcrete/img/concrete.jpg");
   background-size: cover;
   background-position: 50% 50%; }
-  .conrete-call-to .col {
+  .concrete-call-to .col {
     float: left;
     width: 100%;
     max-width: 480px;
     margin-right: 40px; }
     @media (max-width: 1040px) {
-      .conrete-call-to .col {
+      .concrete-call-to .col {
         width: 49%;
         max-width: 100%;
         margin-right: 2%; } }
     @media (max-width: 767px) {
-      .conrete-call-to .col {
+      .concrete-call-to .col {
         width: 100%;
         margin-right: 0%;
         margin-bottom: 20px; } }
-  .conrete-call-to .last.col {
+  .concrete-call-to .last.col {
     margin: 0px; }
   @media (max-width: 767px) {
-    .conrete-call-to .col img {
+    .concrete-call-to .col img {
       width: 100%; } }
-  .conrete-call-to .transparent-background {
+  .concrete-call-to .transparent-background {
     padding: 30px 0px;
     background-image: url("/wp-content/themes/quayconcrete/img/transparent.png"); }
-  .conrete-call-to p {
+  .concrete-call-to .col {
+    width: 100%;
+    max-width: 530px;
+    margin-right: 235px; }
+  .concrete-call-to .last.col {
+    width: 100%;
+    max-width: 235px; }
+  .concrete-call-to .cal-btn {
+    color: #fff;
+    width: 100%;
+    background-color: #392986;
+    display: block;
+    text-align: center;
+    padding: 14px 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 62px; }
+  .concrete-call-to p {
     margin: 0; }
-  .conrete-call-to h5 {
+  .concrete-call-to h5 {
     color: #392986;
     font-weight: 900;
-    font-size: 22px;
+    font-size: 24px;
     margin: 0 0 10px;
     text-transform: uppercase; }
-  .conrete-call-to h5:after {
+  .concrete-call-to h5:after {
     display: block;
     content: ' ';
     background-color: #f4c100;
@@ -288,6 +325,52 @@ a:hover {
     .home-intro {
       padding: 20px 0px; } }
 
+.white-text-area-2 {
+  padding: 40px 0px; }
+  .white-text-area-2 .col {
+    float: left;
+    width: 100%;
+    max-width: 480px;
+    margin-right: 40px; }
+    @media (max-width: 1040px) {
+      .white-text-area-2 .col {
+        width: 49%;
+        max-width: 100%;
+        margin-right: 2%; } }
+    @media (max-width: 767px) {
+      .white-text-area-2 .col {
+        width: 100%;
+        margin-right: 0%;
+        margin-bottom: 20px; } }
+  .white-text-area-2 .last.col {
+    margin: 0px; }
+  @media (max-width: 767px) {
+    .white-text-area-2 .col img {
+      width: 100%; } }
+  @media (max-width: 767px) {
+    .white-text-area-2 {
+      padding: 20px 0px 0px; } }
+  .white-text-area-2 h3 {
+    position: relative;
+    color: #392986;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 30px; }
+  .white-text-area-2 h3:after {
+    position: absolute;
+    content: ' ';
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: #f4c100;
+    bottom: -16px;
+    left: 0px; }
+  .white-text-area-2 ul {
+    margin: 0 0 20px;
+    padding: 0px;
+    margin-left: 15px; }
+
 .white-text-area {
   padding: 40px 0px; }
   .white-text-area .col {
@@ -299,7 +382,7 @@ a:hover {
       padding: 20px 0px 0px; } }
   .white-text-area h1 {
     position: relative;
-    color: #e62382;
+    color: #392986;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 28px;
@@ -459,8 +542,53 @@ a:hover {
   @media (max-width: 767px) {
     .pink-text-area {
       padding: 20px 0px; } }
+  .pink-text-area h2 {
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 30px; }
+  .pink-text-area h2:after {
+    position: absolute;
+    content: ' ';
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: #f4c100;
+    bottom: -16px;
+    left: 0px; }
   .pink-text-area ul li {
     margin: 0 0 20px; }
+
+.pink-text-area-1 {
+  padding: 40px 0px;
+  margin: 0 0 20px;
+  background-color: #392986;
+  color: #fff; }
+  .pink-text-area-1 .col {
+    float: left;
+    width: 100%;
+    max-width: 1000px; }
+  @media (max-width: 767px) {
+    .pink-text-area-1 {
+      padding: 20px 0px; } }
+  .pink-text-area-1 h4 {
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 30px; }
+  .pink-text-area-1 h4:after {
+    position: absolute;
+    content: ' ';
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: #f4c100;
+    bottom: -16px;
+    left: 0px; }
 
 .pink-text-area-form {
   padding: 40px 0px;
@@ -814,6 +942,7 @@ a:hover {
 .icon-blocks-4 {
   background-color: #392986;
   padding: 30px 0px 40px;
+  margin: 0 0 20px;
   text-align: center;
   line-height: 1; }
   .icon-blocks-4 .col {

@@ -5,10 +5,16 @@
 get_header(); ?>
 
 <section class="homepage-banner">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/concrete_background.jpg" alt="Quay Concrete Home Banner" />
+        <img src="<?php echo get_template_directory_uri(); ?>/img/concrete_background.jpg" style="margin-top: -18px;" alt="Quay Concrete Home Banner" />
         <div class="container">
             <div class="into-msg">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/think_pink_header_image_text.svg" alt="Go Green... Think Pink. We divert up to 97% of waste away from land" />
+                <h1>Where <span>Quality</span><br> Counts</h1>
+                <ul>
+                    <li><img src="<?php echo get_template_directory_uri(); ?>/img/yellow_arrow.png" alt="yellow arrow">Only pay for what you use</li>
+                    <li><img src="<?php echo get_template_directory_uri(); ?>/img/yellow_arrow.png" alt="yellow arrow">Any size delivery</li>
+                    <li><img src="<?php echo get_template_directory_uri(); ?>/img/yellow_arrow.png" alt="yellow arrow">Pump hire available</li>
+                    <li><img src="<?php echo get_template_directory_uri(); ?>/img/yellow_arrow.png" alt="yellow arrow">Trade &amp; DIY welcome</li>
+                </ul>
             </div>
         </div>
 </section>
@@ -69,21 +75,9 @@ get_header(); ?>
         </div>
 </section>
 
-<section class="conrete-call-to">
-    <div class="transparent-background">
-        <div class="container">
-            <div class="col">
-                <h5>Concrete Calulator</h5>
-                <p><strong>Please use our volume concrete calculator to estimate thevolume of the concrete needed for your project.</strong> When purchasing,we recommend ordering a bit more than the calculated result.</p>
-            </div>
-            <div class="col last">
-                <div class="cal-btn">Calculator</div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <?php
 
+get_sidebar('concrete-call-to-action');
 get_sidebar();
 get_footer();
