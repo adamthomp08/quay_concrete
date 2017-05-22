@@ -1110,6 +1110,8 @@ a:hover {
     margin: 0 0 20px; }
   .calculator-area .last.form-wrap {
     margin: 0; }
+  .calculator-area .last.form-wrap {
+    margin: 0; }
   .calculator-area .form-wrap label {
     display: inline-block;
     width: 20%;
@@ -1120,7 +1122,7 @@ a:hover {
     width: 60%;
     margin-right: 19%;
     color: #000;
-    height: 30px;
+    height: 45px;
     border-radius: 4px;
     padding: 0 10px; }
   .calculator-area .button-wraps {
@@ -1131,7 +1133,8 @@ a:hover {
     height: 52px;
     padding: 15px 0px;
     text-transform: uppercase;
-    font-weight: 900; }
+    font-weight: 900;
+    cursor: pointer; }
   .calculator-area .reset-btn {
     float: left;
     width: 49%;
@@ -1159,7 +1162,7 @@ a:hover {
     color: #f4c100;
     bottom: 20px;
     right: 20px;
-    font-size: 80px;
+    font-size: 48px;
     line-height: 1; }
   .calculator-area .result-wrap .result span {
     color: #fff; }

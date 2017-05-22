@@ -5,7 +5,7 @@
 	               <div class="col last">
 	               		<div class="form-wrap">
 	               			<label for="units">Units:</label> 
-	               			<select name="units">
+	               			<select id="units" name="units">
 		   						<option value="Meters" selected>Meters</option>
 		   						<option value="Yards">Yards</option>
 								<option value="Feet">Feet</option>
@@ -14,19 +14,15 @@
 	               		</div>	
 	               		<div class="form-wrap">   	
 	               			<label for="length">Length:</label> 				
-	   						<input type="number" name="length" value="0" min=0 />
+	   						<input id="length" type="number" name="length" value="0" min=0 />
 	   					</div>
 	   					<div class="form-wrap">   
-	   						<label for="height">Height:</label> 		
-	   						<input type="number" name="height" value="0" min=0 />
+	   						<label for="height">Width:</label> 		
+	   						<input id="width" type="number" name="width" value="0" min=0 />
 	   					</div>
-	   					<div class="form-wrap">  
+	   					<div class="form-wrap last">  
 	   						<label for="depth">Depth:</label>  
-	   						<input type="number" name="depth" value="0" min=0 />
-	   					</div>
-	   					<div class="form-wrap last">   
-	   						<label for="volume">Volume:</label> 
-	   						<input type="number" name="volume" value="0" min=0 />
+	   						<input id="depth" type="number" name="depth" value="0" min=0 />
 	   					</div>
 	                </div>
 	                 <div class="col">

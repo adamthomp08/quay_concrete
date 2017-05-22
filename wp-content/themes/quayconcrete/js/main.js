@@ -1,7 +1,91 @@
 
 $(function() {
 
-    // $(".date-picker").datepicker({ firstDay: 1 });
+    $( ".cal-btn" ).click(function() {
+
+    	var units = $( '#units' ).val(); 
+    	var length = convertToMeters( $( '#length' ).val() , units ); 
+    	var width =  convertToMeters( $( '#width' ).val(), units ); 
+    	var depth =  convertToMeters( $( '#depth' ).val(), units ); 
+    	var val; 
+    	var output = $( '.result span' ); 
+
+    	if(checkVals()){
+    		val = length * width * depth;
+    		output.text(val.toFixed(2));
+    	} else {
+			resetCal();
+    	}
+
+	});
+
+	function checkVals(){
+		var length = $( '#length' ); 
+    	var width = $( '#width' ); 
+    	var depth = $( '#depth' ); 	
+    	var error_msg = 'Error: Please enter values greater than 0';
+
+    	if(length.val() <= 0){
+    		alert(error_msg);
+    		return false;
+    	}
+
+    	if(width.val() <= 0){
+    		alert(error_msg);
+    		return false;
+    	}
+
+    	if(depth.val() <= 0){
+    		alert(error_msg);
+    		return false;
+    	}
+
+    	return true; 
+
+	}
+
+	function resetCal(){
+		var length = $( '#length' ); 
+    	var width = $( '#width' ); 
+    	var depth = $( '#depth' ); 
+    	var output = $( '.result span' ); 
+
+    	length.val(0);
+    	width.val(0);
+    	depth.val(0);
+    	output.text(0);
+	}
+
+	function convertToMeters(val, unit){
+
+		switch(unit) {
+			case "Meters":
+				//Do nothing
+				return val; 
+		        break;
+			case "Yards":
+				val *= 0.9144; 
+		        break;
+		    case "Feet":
+		    	val *= 0.3048;
+		        break;
+		    case "Inches":
+		    	val *=	0.0254;
+		        break;
+		    default:
+		    	alert('Error: Units value is not valid');
+		        //do nothing
+		}
+
+		return val;
+
+	}
+
+	 $( ".reset-btn" ).click(function() {
+
+    	resetCal();
+
+	});
     
 	$( ".skip-btn" ).hover(
 	  function() {
