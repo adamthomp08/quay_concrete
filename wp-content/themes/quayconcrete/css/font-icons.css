@@ -41,15 +41,6 @@
 .icon-arrow:before {
   content: "\62";
 }
-.icon-call-phone:before {
-  content: "\61";
-}
-.icon-pin-map:before {
-  content: "\63";
-}
-.icon-email-envelope:before {
-  content: "\6b";
-}
 .icon-align-justify:before {
   content: "\6c";
 }
@@ -64,4 +55,13 @@
 }
 .icon-you-pay:before {
   content: "\67";
+}
+.icon-call-icon:before {
+  content: "\68";
+}
+.icon-address-icon:before {
+  content: "\69";
+}
+.icon-email-icon:before {
+  content: "\6a";
 }

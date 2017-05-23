@@ -20,7 +20,7 @@
 
 	h3{
 		position: relative;
-	    color: $pink;
+	    color: $blue;
 	    text-transform: uppercase;
 	    font-weight: 900;
 	    font-size: 24px;
@@ -56,7 +56,7 @@
 
 	h1{
 		position: relative;
-	    color: $pink;
+	    color: $blue;
 	    text-transform: uppercase;
 	    font-weight: 900;
 	    font-size: 28px;
@@ -69,13 +69,13 @@
 	    display: block;
 	    width: 70px;
 	    height: 4px;
-	    background-color: #f4c100;
+	    background-color: $yellow;
 	    bottom: -16px;
 	    left: 0px;
 	}
 
 	h2{
-		color: $pink; 
+		color: $blue; 
 		text-transform: uppercase;
 		font-weight: 900;
 		font-size: 22px;
@@ -93,7 +93,7 @@
 	    }
 	}
 	ol li{
-		color: $pink; 
+		color: $blue; 
 		font-weight: 900;
 	}
 	ol li span{
@@ -116,16 +116,16 @@
 	}
 	.private-land{
 		float: left;
-		color: $pink; 
-		border: 2px solid $pink; 
+		color: $blue; 
+		border: 2px solid $blue; 
 		width: 48%;
 		margin-right: 2%;
 		padding: 15px;
 	}
 	.private-road{
 		float: left;
-		color: $pink; 
-		border: 2px solid $pink; 
+		color: $blue; 
+		border: 2px solid $blue; 
 		width: 48%;
 		margin-left: 2%;
 		padding: 15px;
@@ -133,7 +133,7 @@
 	.active.private-road,
 	.active.private-land{
 		color: #fff; 
-		background-color: $pink;
+		background-color: $blue;
 	}
 
 	.col{
@@ -169,7 +169,7 @@
 	.address-form span{
 		display: inline-block;
 		font-size: 18px;
-		color: $pink; 
+		color: $blue; 
 		font-weight: 900;
 		margin-bottom: 10px; 
 	}
@@ -195,7 +195,7 @@
 
 	.cost{
 		position: absolute;
-		color: $pink; 
+		color: $blue; 
 		font-weight: 900;
 		font-size: 22px; 
 		bottom: 50px;
@@ -217,7 +217,7 @@
 		padding: 10px; 
 		font-weight: 900; 
 		text-transform: uppercase; 
-		background-color: $pink; 
+		background-color: $blue; 
 		color: #fff;
 		border: 0;
 		@media (max-width: 767px){
@@ -231,7 +231,7 @@
 	@include two-cols;
 
 	padding: 40px 0px;
-	background-color: $pink; 
+	background-color: $blue; 
 	color: #fff; 
 
 	@media (max-width: 767px){
@@ -271,7 +271,7 @@
 
 	padding: 40px 0px;
 	margin: 0 0 20px;
-	background-color: $pink; 
+	background-color: $blue; 
 	color: #fff; 
 
 	@media (max-width: 767px){

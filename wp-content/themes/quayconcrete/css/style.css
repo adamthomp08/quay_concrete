@@ -34,13 +34,13 @@ p {
 
 a {
   text-decoration: none;
-  color: #392986; }
+  color: #001489; }
 
 a:hover {
   text-decoration: underline; }
 
 .main-nav {
-  padding: 10px 0px;
+  padding: 20px 0px;
   position: relative; }
   @media (max-width: 840px) {
     .main-nav {
@@ -48,7 +48,9 @@ a:hover {
   .main-nav .logo {
     float: left;
     width: 290px;
-    margin-left: -12px; }
+    position: relative;
+    margin-left: -12px;
+    z-index: 1; }
   .main-nav .logo img {
     max-width: 290px; }
     @media (max-width: 767px) {
@@ -81,7 +83,7 @@ a:hover {
         border-top: 1px solid #ededed; } }
   .main-nav nav ul li {
     display: inline-block;
-    padding: 12px 15px; }
+    padding: 15px 15px; }
     @media (max-width: 900px) {
       .main-nav nav ul li {
         padding: 12px 8px; } }
@@ -95,8 +97,8 @@ a:hover {
         height: 40px; } }
   .main-nav nav ul li a {
     text-decoration: none;
-    font-size: 0.85em;
-    color: #392986;
+    font-size: 16px;
+    color: #001489;
     font-weight: 600;
     position: relative; }
     @media (max-width: 840px) {
@@ -109,7 +111,7 @@ a:hover {
         padding: 10px 20px; } }
   .main-nav nav ul li a:hover:after {
     width: 100%;
-    background-color: #f4c100; }
+    background-color: #eaaa00; }
   .main-nav nav ul li a:after {
     content: ' ';
     position: absolute;
@@ -128,7 +130,7 @@ a:hover {
         content: none; } }
   .main-nav .current_page_item a:after {
     width: 100% !important;
-    background-color: #f4c100 !important; }
+    background-color: #eaaa00 !important; }
   .main-nav nav ul li:last-child {
     padding-right: 0; }
   .main-nav .burger-icon {
@@ -150,7 +152,8 @@ a:hover {
     color: #000; }
 
 .homepage-banner {
-  position: relative; }
+  position: relative;
+  margin-top: -13px; }
   @media (max-width: 767px) {
     .homepage-banner {
       display: none; } }
@@ -175,7 +178,7 @@ a:hover {
   .homepage-banner h1 {
     font-size: 38px;
     text-transform: uppercase;
-    color: #392986; }
+    color: #001489; }
   .homepage-banner h1 span {
     font-weight: 900; }
   .homepage-banner ul {
@@ -186,7 +189,7 @@ a:hover {
     margin-bottom: 10px;
     font-weight: 600;
     font-size: 18px;
-    color: #392986; }
+    color: #001489; }
   .homepage-banner .into-msg img {
     width: 25px;
     height: auto;
@@ -196,9 +199,9 @@ a:hover {
 
 .homepage-banner-contact {
   padding: 24px 0px 20px;
-  background-color: #392986;
+  background-color: #001489;
   color: #fff;
-  border-bottom: 5px solid #f4c100;
+  border-bottom: 5px solid #eaaa00;
   font-size: 26px;
   line-height: 1; }
   .homepage-banner-contact .col {
@@ -222,9 +225,12 @@ a:hover {
     .homepage-banner-contact .col img {
       width: 100%; } }
   .homepage-banner-contact i {
-    color: #f4c100;
-    vertical-align: sub;
-    font-size: 26px; }
+    color: #eaaa00;
+    font-size: 70px;
+    line-height: 0;
+    position: absolute;
+    right: 189px;
+    top: -16px; }
   .homepage-banner-contact span {
     font-weight: 600; }
   .homepage-banner-contact .last.col {
@@ -275,7 +281,7 @@ a:hover {
   .concrete-call-to .cal-btn {
     color: #fff;
     width: 100%;
-    background-color: #392986;
+    background-color: #001489;
     display: block;
     text-align: center;
     padding: 14px 10px;
@@ -285,7 +291,7 @@ a:hover {
   .concrete-call-to p {
     margin: 0; }
   .concrete-call-to h5 {
-    color: #392986;
+    color: #001489;
     font-weight: 900;
     font-size: 24px;
     margin: 0 0 10px;
@@ -293,7 +299,7 @@ a:hover {
   .concrete-call-to h5:after {
     display: block;
     content: ' ';
-    background-color: #f4c100;
+    background-color: #eaaa00;
     width: 70px;
     height: 4px;
     margin-right: auto;
@@ -352,7 +358,7 @@ a:hover {
       padding: 20px 0px 0px; } }
   .white-text-area-2 h3 {
     position: relative;
-    color: #392986;
+    color: #001489;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 24px;
@@ -363,7 +369,7 @@ a:hover {
     display: block;
     width: 70px;
     height: 4px;
-    background-color: #f4c100;
+    background-color: #eaaa00;
     bottom: -16px;
     left: 0px; }
   .white-text-area-2 ul {
@@ -382,7 +388,7 @@ a:hover {
       padding: 20px 0px 0px; } }
   .white-text-area h1 {
     position: relative;
-    color: #392986;
+    color: #001489;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 28px;
@@ -393,11 +399,11 @@ a:hover {
     display: block;
     width: 70px;
     height: 4px;
-    background-color: #f4c100;
+    background-color: #eaaa00;
     bottom: -16px;
     left: 0px; }
   .white-text-area h2 {
-    color: #392986;
+    color: #001489;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 22px; }
@@ -410,7 +416,7 @@ a:hover {
       .white-text-area ol {
         margin: 0 0 20px; } }
   .white-text-area ol li {
-    color: #392986;
+    color: #001489;
     font-weight: 900; }
   .white-text-area ol li span {
     color: #4d4d4d;
@@ -427,22 +433,22 @@ a:hover {
     font-weight: 900; }
   .white-text-area .private-land {
     float: left;
-    color: #392986;
-    border: 2px solid #392986;
+    color: #001489;
+    border: 2px solid #001489;
     width: 48%;
     margin-right: 2%;
     padding: 15px; }
   .white-text-area .private-road {
     float: left;
-    color: #392986;
-    border: 2px solid #392986;
+    color: #001489;
+    border: 2px solid #001489;
     width: 48%;
     margin-left: 2%;
     padding: 15px; }
   .white-text-area .active.private-road,
   .white-text-area .active.private-land {
     color: #fff;
-    background-color: #392986; }
+    background-color: #001489; }
   .white-text-area .col {
     position: relative; }
   .white-text-area .address-form {
@@ -470,7 +476,7 @@ a:hover {
   .white-text-area .address-form span {
     display: inline-block;
     font-size: 18px;
-    color: #392986;
+    color: #001489;
     font-weight: 900;
     margin-bottom: 10px; }
   .white-text-area .address-lines {
@@ -486,7 +492,7 @@ a:hover {
     padding: 5px 10px; }
   .white-text-area .cost {
     position: absolute;
-    color: #392986;
+    color: #001489;
     font-weight: 900;
     font-size: 22px;
     bottom: 50px;
@@ -507,7 +513,7 @@ a:hover {
     padding: 10px;
     font-weight: 900;
     text-transform: uppercase;
-    background-color: #392986;
+    background-color: #001489;
     color: #fff;
     border: 0; }
     @media (max-width: 767px) {
@@ -517,7 +523,7 @@ a:hover {
 
 .pink-text-area {
   padding: 40px 0px;
-  background-color: #392986;
+  background-color: #001489;
   color: #fff; }
   .pink-text-area .col {
     float: left;
@@ -555,7 +561,7 @@ a:hover {
     display: block;
     width: 70px;
     height: 4px;
-    background-color: #f4c100;
+    background-color: #eaaa00;
     bottom: -16px;
     left: 0px; }
   .pink-text-area ul li {
@@ -564,7 +570,7 @@ a:hover {
 .pink-text-area-1 {
   padding: 40px 0px;
   margin: 0 0 20px;
-  background-color: #392986;
+  background-color: #001489;
   color: #fff; }
   .pink-text-area-1 .col {
     float: left;
@@ -586,13 +592,13 @@ a:hover {
     display: block;
     width: 70px;
     height: 4px;
-    background-color: #f4c100;
+    background-color: #eaaa00;
     bottom: -16px;
     left: 0px; }
 
 .pink-text-area-form {
   padding: 40px 0px;
-  background-color: #392986;
+  background-color: #001489;
   color: #fff; }
   .pink-text-area-form .col {
     float: left;
@@ -624,7 +630,7 @@ a:hover {
         width: 100%;
         margin: 0; } }
   .pink-text-area-form h2 {
-    color: #f4c100;
+    color: #eaaa00;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 22px; }
@@ -650,7 +656,7 @@ a:hover {
   .pink-text-area-form .active.three-day,
   .pink-text-area-form .active.twenty-one-day {
     background-color: #fff;
-    color: #392986; }
+    color: #001489; }
   .pink-text-area-form .three-day {
     bottom: 70px; }
     @media (max-width: 767px) {
@@ -663,11 +669,11 @@ a:hover {
   .pink-text-area-form .ui-datepicker td a {
     text-align: center; }
   .pink-text-area-form .ui-datepicker-calendar {
-    background-color: #392986; }
+    background-color: #001489; }
   .pink-text-area-form .ui-state-default, .pink-text-area-form .ui-widget-content .ui-state-default {
-    background-color: #f4c100;
+    background-color: #eaaa00;
     color: #fff;
-    border: 1px solid #f4c100; }
+    border: 1px solid #eaaa00; }
   .pink-text-area-form .ui-widget.ui-widget-content {
     border: none; }
   .pink-text-area-form .ui-datepicker table {
@@ -678,19 +684,19 @@ a:hover {
     padding: 8px;
     font-size: 12px; }
   .pink-text-area-form .ui-datepicker-calendar thead {
-    border-bottom: 1px solid #f4c100;
+    border-bottom: 1px solid #eaaa00;
     color: #fff;
     font-size: 12px; }
   .pink-text-area-form .ui-widget-header {
-    background-color: #392986;
+    background-color: #001489;
     color: #fff;
-    border: 1px solid #392986;
+    border: 1px solid #001489;
     text-transform: uppercase; }
   .pink-text-area-form .ui-datepicker .ui-datepicker-title {
     font-size: 12px; }
   .pink-text-area-form .ui-state-active, .pink-text-area-form .ui-widget-content .ui-state-active {
-    background-color: #f4c100 !important;
-    border-color: #f4c100 !important;
+    background-color: #eaaa00 !important;
+    border-color: #eaaa00 !important;
     color: #fff; }
   .pink-text-area-form .ui-icon-circle-triangle-e {
     background-image: url("/wp-content/themes/thinkpinkskips/img/right_arrow.png");
@@ -702,11 +708,11 @@ a:hover {
     border-radius: 0px; }
   .pink-text-area-form .ui-datepicker-next-hover,
   .pink-text-area-form .ui-datepicker-prev-hover {
-    background-color: #f4c100;
+    background-color: #eaaa00;
     border: 0; }
   .pink-text-area-form .ui-datepicker-week-end .ui-state-default {
-    background-color: #f169a4;
-    border: 1px solid #f169a4; }
+    background-color: #eaaa00;
+    border: 1px solid #eaaa00; }
 
 .skips-selection {
   padding: 40px 0;
@@ -736,7 +742,7 @@ a:hover {
     .skips-selection {
       padding: 20px 0px; } }
   .skips-selection h2 {
-    color: #392986;
+    color: #001489;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 22px; }
@@ -754,13 +760,13 @@ a:hover {
     margin-bottom: 40px; }
   .skips-selection .skip-btn {
     padding: 10px;
-    color: #392986; }
+    color: #001489; }
   .skips-selection .skip-btn:hover {
     cursor: pointer;
-    background-color: #392986;
+    background-color: #001489;
     color: #fff; }
   .skips-selection .active.skip-btn {
-    background-color: #392986;
+    background-color: #001489;
     color: #fff; }
   .skips-selection .last img {
     margin-top: -10px; }
@@ -806,14 +812,16 @@ a:hover {
   .contact-details .icon-details .sub-col {
     display: block;
     float: left;
-    width: 15%; }
+    width: 15%;
+    min-height: 64px; }
   .contact-details .icon-details .last.sub-col {
     width: 85%; }
   .contact-details .icon-details i {
-    font-size: 30px;
-    color: #f4c100; }
+    font-size: 64px;
+    color: #eaaa00;
+    line-height: 0; }
   .contact-details h5 {
-    color: #392986;
+    color: #001489;
     font-weight: 900;
     font-size: 24px;
     margin: 0 0 40px;
@@ -850,7 +858,7 @@ a:hover {
     width: 122px;
     margin-left: auto;
     display: block;
-    background-color: #392986;
+    background-color: #001489;
     border: 0;
     padding: 10px;
     color: #fff;
@@ -933,14 +941,14 @@ a:hover {
     line-height: 1;
     font-size: 14px; }
   .icon-blocks-3 .pink {
-    background-color: #392986; }
+    background-color: #001489; }
   .icon-blocks-3 .light-pink {
-    background-color: #f4c100; }
+    background-color: #eaaa00; }
   .icon-blocks-3 .yellow {
-    background-color: #f4c100; }
+    background-color: #eaaa00; }
 
 .icon-blocks-4 {
-  background-color: #392986;
+  background-color: #001489;
   padding: 30px 0px 40px;
   margin: 0 0 20px;
   text-align: center;
@@ -969,7 +977,7 @@ a:hover {
   .icon-blocks-4 .col {
     color: #fff;
     padding: 20px;
-    border: 2px solid #f4c100; }
+    border: 2px solid #eaaa00; }
     @media (max-width: 768px) {
       .icon-blocks-4 .col {
         padding: 18px; } }
@@ -984,7 +992,7 @@ a:hover {
   .icon-blocks-4 h3:after {
     display: block;
     content: ' ';
-    background-color: #f4c100;
+    background-color: #eaaa00;
     width: 70px;
     height: 4px;
     margin: 20px auto 0; }
@@ -992,7 +1000,7 @@ a:hover {
     margin: 0 0 5px; }
   .icon-blocks-4 i {
     font-size: 60px;
-    color: #f4c100; }
+    color: #eaaa00; }
   .icon-blocks-4 p {
     font-weight: 600;
     margin: 0;
@@ -1081,7 +1089,7 @@ a:hover {
 
 .calculator-area {
   padding: 40px 0px;
-  background-color: #392986;
+  background-color: #001489;
   color: #fff; }
   .calculator-area .col {
     float: left;
@@ -1139,15 +1147,15 @@ a:hover {
     float: left;
     width: 49%;
     margin-right: 2%;
-    border: 1px solid #f4c100; }
+    border: 1px solid #eaaa00; }
   .calculator-area .cal-concrete-btn {
     float: left;
     width: 49%;
-    background-color: #f4c100;
-    border: 1px solid #f4c100; }
+    background-color: #eaaa00;
+    border: 1px solid #eaaa00; }
   .calculator-area .result-wrap {
     position: relative;
-    border: 1px solid #f4c100;
+    border: 1px solid #eaaa00;
     width: 100%;
     height: 168px; }
   .calculator-area .result-wrap .cal-vol {
@@ -1159,7 +1167,7 @@ a:hover {
   .calculator-area .result-wrap .result {
     display: block;
     position: absolute;
-    color: #f4c100;
+    color: #eaaa00;
     bottom: 20px;
     right: 20px;
     font-size: 48px;

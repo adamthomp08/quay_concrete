@@ -18,7 +18,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
             <div class="col">
                     <div class="icon-details">
                         <div class="sub-col">
-                            <i class="icon-call-phone"></i>
+                            <i class="icon-call-icon"></i>
                         </div>
                         <div class="sub-col last">
                             <p><span>Phone:</span><a href="tel:01524844151">01524 844 151</a></p>
@@ -26,7 +26,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
                     </div>  
                     <div class="icon-details">
                         <div class="sub-col">
-                            <i class="icon-email-envelope"></i>
+                            <i class="icon-email-icon"></i>
                         </div>
                         <div class="sub-col last">
                             <p><span>Email:</span><a href="mailto:info@thinkpinkskips.co.uk">info@thinkpinkskips.co.uk</a></p>
@@ -34,7 +34,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
                     </div> 
                     <div class="icon-details">
                         <div class="sub-col">
-                            <i class="icon-pin-map"></i>
+                            <i class="icon-address-icon"></i>
                         </div>
                         <div class="sub-col last">
                             <p><span>Address:</span>Unit 37,<br> Lune Industrial Estate,<br> Lancaster,<br> LA1 5QP</p>

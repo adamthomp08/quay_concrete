@@ -66,10 +66,10 @@
 	    font-size: 14px;
 	}
 	.pink{
-		background-color: $pink;
+		background-color: $blue;
 	}
 	.light-pink{
-		background-color: $light_pink;
+		background-color: $yellow;
 	}
 	.yellow{
 		background-color: $yellow; 
@@ -79,7 +79,7 @@
 .icon-blocks-4{
 	@include four-cols;
 
-	background-color: $pink;
+	background-color: $blue;
 	padding: 30px 0px 40px; 
 	margin: 0 0 20px;
 	text-align: center;
@@ -88,7 +88,7 @@
 	.col{
 		color: #fff;
 		padding: 20px;
-		border: 2px solid $light_pink;
+		border: 2px solid $yellow;
 		@media(max-width: 768px){
 			padding: 18px;
 		}
@@ -106,7 +106,7 @@
 	h3:after{
 		display: block;
     	content: ' ';
-    	background-color: #f4c100;
+    	background-color: $yellow;
    		width: 70px;
    		height: 4px;
     	margin: 20px auto 0;

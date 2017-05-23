@@ -25,7 +25,7 @@ get_header(); ?>
             <span>Contact us</span> to make a booking:
         </div>
         <div class="col last">
-           <i class="icon-call-phone"></i> 01524 388 251
+           <i class="icon-call-icon"></i> 01524 388 251
         </div>
     </div>
 </section>

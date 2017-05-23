@@ -3,7 +3,7 @@
 	@include one-cols;
 
 	padding: 40px 0px;
-	background-color: $pink; 
+	background-color: $blue; 
 	color: #fff; 
 
 	@media (max-width: 767px){
@@ -67,7 +67,7 @@
 	.active.three-day,
 	.active.twenty-one-day{
 		background-color: #fff;
-		color: $pink;
+		color: $blue;
 	}
 
 	.three-day{
@@ -88,13 +88,13 @@
 	}
 
 	.ui-datepicker-calendar{
-		background-color: $pink;
+		background-color: $blue;
 	}
 
 	.ui-state-default, .ui-widget-content .ui-state-default{
-		background-color: $light_pink;
+		background-color: $yellow;
 		color: #fff;
-		border: 1px solid $light_pink;
+		border: 1px solid $yellow;
 	}
 
 	.ui-widget.ui-widget-content{
@@ -121,9 +121,9 @@
 	}
 
 	.ui-widget-header{
-		background-color: $pink;
+		background-color: $blue;
 		color: #fff;
-		border: 1px solid $pink;
+		border: 1px solid $blue;
 		text-transform: uppercase;
 	}
 
@@ -157,8 +157,8 @@
 	}
 
 	.ui-datepicker-week-end .ui-state-default {
-		background-color: $med_pink;
-		border: 1px solid $med_pink;
+		background-color: $yellow;
+		border: 1px solid $yellow;
 	}
 }
 
@@ -175,7 +175,7 @@
 	}
 
 	h2{
-		color: $pink; 
+		color: $blue; 
 		text-transform: uppercase;
 		font-weight: 900;
 		font-size: 22px;
@@ -201,17 +201,17 @@
 
 	.skip-btn{
 		padding: 10px;
-		color: $pink;
+		color: $blue;
 	}
 
 	.skip-btn:hover{
 		cursor: pointer; 
-		background-color: $pink;
+		background-color: $blue;
 		color: #fff;
 	}
 
 	.active.skip-btn{
-		background-color: $pink;
+		background-color: $blue;
 		color: #fff;
 	}
 
