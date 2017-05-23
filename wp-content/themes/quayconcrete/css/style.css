@@ -71,7 +71,7 @@ a:hover {
         display: none;
         position: absolute;
         left: 0;
-        top: 79px;
+        top: 58px;
         right: 0;
         background-color: #fff;
         z-index: 2; } }
@@ -137,7 +137,7 @@ a:hover {
     width: 40px;
     height: 40px;
     right: 20px;
-    top: 10px;
+    top: 2px;
     display: none; }
     @media (max-width: 840px) {
       .main-nav .burger-icon {
@@ -1127,7 +1127,7 @@ a:hover {
     padding: 0 10px; }
   .calculator-area .button-wraps {
     margin: 0 0 20px; }
-  .calculator-area .cal-btn,
+  .calculator-area .cal-concrete-btn,
   .calculator-area .reset-btn {
     text-align: center;
     height: 52px;
@@ -1140,7 +1140,7 @@ a:hover {
     width: 49%;
     margin-right: 2%;
     border: 1px solid #f4c100; }
-  .calculator-area .cal-btn {
+  .calculator-area .cal-concrete-btn {
     float: left;
     width: 49%;
     background-color: #f4c100;

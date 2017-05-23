@@ -1,7 +1,7 @@
 
 $(function() {
 
-    $( ".cal-btn" ).click(function() {
+    $( ".cal-concrete-btn" ).click(function() {
 
     	var units = $( '#units' ).val(); 
     	var length = convertToMeters( $( '#length' ).val() , units ); 

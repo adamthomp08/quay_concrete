@@ -30,7 +30,7 @@
 		 					<div class="reset-btn">
 		 						reset
 		 					</div>
-		 					<div class="cal-btn">
+		 					<div class="cal-concrete-btn">
 		 						Calculate
 		 					</div>
 	 					</div>
